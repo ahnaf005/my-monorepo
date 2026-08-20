@@ -1,4 +1,10 @@
 {
   "name": "@myapp/shared",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/types.ts",
+  "types": "./src/types.ts",
+  "exports": {
+    ".": "./src/types.ts"
+  }
 }
